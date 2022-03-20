@@ -17,7 +17,7 @@ public class Main {
         String[] inputArr = input.split(" ");
 
         if (inputArr.length != 3) {
-            throw new IncorrectInputExceptions("Выввели неверное выражение, ваше выражние : " + Arrays.toString(inputArr));
+            throw new IncorrectInputExceptions("Вы ввели неверное выражение : " + Arrays.toString(inputArr));
         }
         calculatorUtils.startCalculate(inputArr[0], inputArr[1], inputArr[2]);
     }
